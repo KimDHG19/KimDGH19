@@ -1,0 +1,185 @@
+html {
+    scroll-behavior: smooth;
+
+}
+a:link {
+    color: rgba(66, 66, 66, 0.972);
+  }
+
+a:hover {
+    color: rgb(92, 92, 92);
+  }
+  
+a:active {
+    color: rgba(4, 4, 167, 0.041);
+  }
+
+body {
+    font-family: "Lato", sans-serif;
+}
+
+header {
+    background: url(img/DSC04449.jpg) ; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    height: 100vh;
+    width: 100%;
+    margin-bottom: 4em;
+    
+  }
+
+nav {
+    position: fixed!important;
+    top: 0;
+    z-index: 99;
+    width: 100%;
+    height: 40px;
+    background-color: #ffffff!important;
+
+}
+
+.navbar-nav.navbar-center {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+.nav-style {
+    padding: 25px;
+    color: rgb(0, 0, 0) !important;
+}
+
+.nav-link {
+    color: black !important;
+    
+}
+  
+.nav-link:hover {
+    color: rgb(149, 149, 149) !important;
+    
+}
+  
+.rubrik {
+    margin: auto;
+    margin-bottom: 10px;
+    width: 68.715%;
+    padding: 10px;
+    text-align: center;
+    font-size: 8em;
+    margin-top: 100px;
+    color:#eee;
+    letter-spacing: 1px;
+
+}
+
+.underrubrik {
+    margin-left: auto;
+    margin-right: auto;
+    width: 68.715%;
+    padding: 10px;
+    text-align: center;
+    font-size: 1.55em;
+    margin-top: 55px;
+    color:#eee;
+    letter-spacing: 1px;
+}
+
+.downarrow {
+    margin: auto;
+    margin-bottom: 10px;
+    width: 68.715%;
+    padding: 10px;
+    text-align: center;
+    font-size: 2.5em;
+    margin-top: 150px;
+    color:#eee;
+    letter-spacing: 1px;
+}
+
+
+
+
+
+.content-header {
+    margin-left: auto;
+    margin-right: auto;
+    width: 68.715%;
+    padding: 10px;
+    text-align: center;
+    font-size: 4em;
+    margin-top: 50px;
+    color:rgb(5, 5, 5);
+    letter-spacing: 1px;
+}
+
+.content-text {
+    margin-left: auto;
+    margin-right: auto;
+    width: 68.715%;
+    padding: 10px;
+    text-align: center;
+    font-size: 1.5em;
+    margin-top: 10px;
+    color:rgb(119, 117, 117);
+    letter-spacing: 1px;
+}
+
+#content-container {
+    margin-top: 100vh;
+    padding-top: 80px;
+}
+
+.content {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 4em;
+    width: 77%;
+    padding: 0px;
+    padding-top: 11px;
+    padding-bottom: 3em;
+    text-align: center;
+    font-size: 1.5em;
+    letter-spacing: 1px;
+}
+
+#about {
+    padding: 10px;
+}
+
+.content-header {
+    padding: 0;
+}
+
+.skill-text {
+    font-size: 0.7em;
+}
+
+.skill-circle--back {
+    stroke: #dfdcd5;
+}
+
+
+
+.footer {
+    margin: auto;
+    margin-bottom: 0px;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    font-size: 1.5em;
+    margin-top: 0px;
+    color:rgb(190, 190, 190);
+    background-color: rgb(41, 41, 41);
+    letter-spacing: 1px;
+}
+
+.circle-container {
+    height: 120px;
+    position: relative;
+    width: 120px;
+    display: inline-block;
+    margin: 20px;
+}
