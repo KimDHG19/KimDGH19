@@ -1,3 +1,5 @@
+
+
 html {
     scroll-behavior: smooth;
 
@@ -28,27 +30,22 @@ header {
     height: 100vh;
     width: 100%;
     margin-bottom: 4em;
+    z-index: 1;
     
   }
 
 nav {
     position: fixed!important;
     top: 0;
-    z-index: 99;
-    width: 100%;
-    height: 40px;
+    z-index: 90;
     background-color: #ffffff!important;
-
+    width: 100%;
 }
 
-.navbar-nav.navbar-center {
+.navbar-nav {
     margin-left: auto;
     margin-right: auto;
-  }
-
-.nav-style {
-    padding: 25px;
-    color: rgb(0, 0, 0) !important;
+    text-align: center;
 }
 
 .nav-link {
@@ -60,47 +57,40 @@ nav {
     color: rgb(149, 149, 149) !important;
     
 }
-  
-.rubrik {
+
+.rubrik, .underrubrik {
     margin: auto;
     margin-bottom: 10px;
-    width: 68.715%;
-    padding: 10px;
+    width: 90%;
+    padding-left: 70px;
+    padding-right: 70px;
     text-align: center;
-    font-size: 8em;
-    margin-top: 100px;
     color:#eee;
     letter-spacing: 1px;
-
+}
+  
+.rubrik { 
+    font-size: 9em;
+    margin-top: 120px;
 }
 
 .underrubrik {
-    margin-left: auto;
-    margin-right: auto;
-    width: 68.715%;
-    padding: 10px;
-    text-align: center;
-    font-size: 1.55em;
-    margin-top: 55px;
-    color:#eee;
-    letter-spacing: 1px;
+    font-size: 2.2em;
+    margin-top: 85px;
 }
 
 .downarrow {
+    position: absolute;
     margin: auto;
-    margin-bottom: 10px;
-    width: 68.715%;
-    padding: 10px;
+    margin-left: 45%;
+    margin-right: 0;
+    width: auto;
     text-align: center;
     font-size: 2.5em;
-    margin-top: 150px;
+    top: 43vh;
     color:#eee;
-    letter-spacing: 1px;
+    z-index: 99;
 }
-
-
-
-
 
 .content-header {
     margin-left: auto;
@@ -132,12 +122,11 @@ nav {
 }
 
 .content {
-    width: 70%;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 4em;
     width: 77%;
-    padding: 0px;
+    padding: 0;
     padding-top: 11px;
     padding-bottom: 3em;
     text-align: center;
@@ -182,4 +171,129 @@ nav {
     width: 120px;
     display: inline-block;
     margin: 20px;
+}
+
+@media screen and (max-width: 864px) {
+    .rubrik, .underrubrik {
+        width: 80.715%;
+    }
+
+    .rubrik {
+        font-size: 5em;
+    }
+
+    .underrubrik {
+        font-size: 1.5em;
+    }
+
+
+    .content-header {
+        text-align: center;
+        font-size: 3em;
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .content {
+        margin-bottom: 1.5em;
+        width: 100%;
+        text-align: center;
+        margin-right: 0;
+        margin-left: 0;
+    }
+
+    .content-text {
+        margin-left: auto;
+        margin-right: auto;
+        width: 90%;
+        padding: 7px;
+        font-size: 1.5em;
+        margin-top: 10px;
+        letter-spacing: 1px;
+    }
+
+    .circle-container {
+        width: 120px;
+    }
+}
+
+@media screen and (max-width: 545px) {
+    .rubrik, .underrubrik {
+        width: 80.715%;
+    }
+
+    .rubrik {
+        font-size: 4em;
+    }
+
+    .underrubrik {
+        font-size: 1.5em;
+        width: 90%;
+    }
+
+    .downarrow {
+        width: auto;
+        font-size: 1.5em;
+        top: 43vh;
+    }
+
+    .content-header {
+        text-align: center;
+        font-size: 1.5em;
+        width: 95%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .content {
+        margin-bottom: 1.5em;
+        width: 100%;
+        text-align: center;
+        margin-right: 0;
+        margin-left: 0;
+    }
+
+    .content-text {
+        margin-left: auto;
+        margin-right: auto;
+        width: 95%;
+        padding: 7px;
+        font-size: 1em;
+        margin-top: 10px;
+        letter-spacing: 1px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .rubrik {
+        margin-top: 70px;
+        text-align: center;
+        width: 90%;
+        font-size: 3em;
+    }
+    
+    .underrubrik {
+        font-size: 1.25em;
+        margin-top: 50px;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 300px) {
+    .rubrik {
+        padding: 0;
+        margin-top: 10px;
+    }
+
+    .underrubrik {
+        font-size: 1em;
+        margin-top: 50px;
+        width: 100%;
+    }
+    
+    .downarrow {
+        top: 60vh;
+    }
+
 }
