@@ -1,2 +1,2 @@
 # KimDHG19
-CV
+This is my website
